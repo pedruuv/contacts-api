@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: gerenciadordecontatos
+  datasource:
+    username: postgres
+    password: '&B&8hr'
+    url: jdbc:postgresql://localhost/gerenciador-de-contatos
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation: true
